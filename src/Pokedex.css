@@ -1,0 +1,11 @@
+.Pokedex-card {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.Pokedex-winner {
+  color: #2fac24;
+}
+.Pokedex-loser {
+  color: #e11440;
+}
